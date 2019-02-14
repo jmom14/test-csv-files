@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymleaf.org">
+<head>
+<meta charset="ISO-8859-1" />
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form th:action="@{/read}" method="post" enctype="multipart/form-data">
+
+
+
+		<input type="file" name="file"> 
+		<input type="text" name="mes"/>
+		<input type="submit" value="Aceptar">
+	</form>
+
+</body>
+</html>
