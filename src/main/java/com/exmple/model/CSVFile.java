@@ -1,18 +1,19 @@
 package com.exmple.model;
 
+import java.util.Date;
 
 public class CSVFile {
 	
 	private int cuenta;
 	private int monto;
 	private byte operacion;
-	private String fecha;
+	private Date fecha;
 	
 	public CSVFile() {
 		
 	}
 	
-	public CSVFile(int cuenta, int monto, byte operacion, String fecha) {
+	public CSVFile(int cuenta, int monto, byte operacion, Date fecha) {
 		this.cuenta = cuenta;
 		this.monto = monto;
 		this.operacion = operacion;
@@ -37,10 +38,10 @@ public class CSVFile {
 	public void setOperacion(byte operacion) {
 		this.operacion = operacion;
 	}
-	public String getFecha() {
+	public Date getFecha() {
 		return fecha;
 	}
-	public void setFecha(String fecha) {
+	public void setFecha(Date fecha) {
 		this.fecha = fecha;
 	}
 
